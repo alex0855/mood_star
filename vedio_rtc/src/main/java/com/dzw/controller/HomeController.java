@@ -37,7 +37,7 @@ public class HomeController {
 
     @GetMapping("unauthc")
     public Object unauthc() {
-        System.out.println(" ");
+        System.out.println("");
         User user = (User) SecurityUtils.getSubject().getPrincipal();
         return user;
     }
