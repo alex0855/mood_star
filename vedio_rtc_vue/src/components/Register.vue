@@ -67,7 +67,7 @@ export default {
                         alert('注册失败');
                     }
             }).catch(function(response){
-                alert('请求失败');
+                alert('请求失败!');
             })
         },
 
