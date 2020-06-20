@@ -22,4 +22,6 @@ public class UserAndInfo {
     public void setUserInfo(UserInfo userInfo) {
         this.userInfo = userInfo;
     }
+
+    public void test(){}
 }
