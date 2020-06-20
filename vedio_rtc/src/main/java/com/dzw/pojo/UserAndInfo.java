@@ -6,6 +6,7 @@ import com.dzw.entity.UserInfo;
 public class UserAndInfo {
     private User user;
     private UserInfo userInfo;
+    private String test;
 
     public User getUser() {
         return user;

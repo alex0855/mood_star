@@ -5,6 +5,8 @@ import org.apache.shiro.SecurityUtils;
 
 public class UserUtil {
 
+    private String test;
+
     public static User getLoginUser(){
         User user = (User) SecurityUtils.getSubject().getPrincipal();
         return user;
