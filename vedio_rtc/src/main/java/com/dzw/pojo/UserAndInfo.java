@@ -7,7 +7,6 @@ public class UserAndInfo {
     private User user;
     private UserInfo userInfo;
     private String test;
-    private String test_1;
 
     public User getUser() {
         return user;
@@ -24,6 +23,4 @@ public class UserAndInfo {
     public void setUserInfo(UserInfo userInfo) {
         this.userInfo = userInfo;
     }
-
-    public void test(){}
 }
