@@ -7,6 +7,7 @@ public class UserAndInfo {
     private User user;
     private UserInfo userInfo;
     private String test;
+    private String test_1;
 
     public User getUser() {
         return user;
