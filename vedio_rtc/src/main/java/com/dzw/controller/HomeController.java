@@ -115,6 +115,8 @@ public class HomeController {
             return map;
         }
         map.put("message", "fail");
+        System.out.println("test");
+        System.out.println("test test");
         return map;
     }
 }
